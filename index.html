@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Corrected script link: type="text/javascript" is good practice -->
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mubashir Ali - Portfolio</title> <!-- More descriptive title -->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/rsz_2logo-removebg-preview.png" class="logo" alt="Logo"> <!-- Added alt text -->
+
+                <ul>
+                    <li><a href="#header">Home</a></li> <!-- Link to sections -->
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <br>
+            <div class="header-text">
+                <p> Web Developer </p>
+                <h1>Hi, I'm <span>Mubashir</span><br> Ali From Karachi</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--------about------>
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="/about.png" alt="About Me Image"> <!-- Added alt text -->
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am frontend web developer doing all things creative to make the web a<br> more unique and awesome place.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contenes active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Developing web/app interfaces</li>
+                            <li><span>Web Development</span><br> Web app Development</li>
+                            <li><span>App Development</span><br> Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contenes" id="Experience">
+                        <ul>
+                            <li><span><b>A-Forword</b> </span> <p> sales executive</p></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contenes" id="Education">
+                        <ul>
+                            <li><span>Continue</span><br>B.P.A 4 Year From SMIU</li>
+                            <li><span>2022</span><br>I.COM From GOVT City College Karachi</li>
+                            <li><span>2020</span><br>Matric From Science Karachi</li>
+                            <li><span>2023</span><br>CAS From Pak College</li>
+                            <li><span>2024</span><br>Web & Mobile App Development From SMIT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------Services---------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developing</h2><br>
+                    <p>HTML<br>CSS<br>JS<br>Git</p><br>
+                    <a href="https://www.globalmediainsight.com/blog/programming-languages-web-development/" target="_blank">Learn more</a> <!-- Added target="_blank" -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Mobile App Developing</h2><br>
+                    <p>Programming Languages<br>Software Development Knowledge<br>Back-end Computing<br>Cross-Platform Concepts</p> <br>
+                    <a href="https://www.indeed.com/career-advice/resumes-cover-letters/mobile-app-developer-skills" target="_blank">Learn more</a> <!-- Added target="_blank" -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/work2-fotor-bg-remover-2023100715139.png" alt="Web Development Project" class="img1">
+                    <div class="layer1">
+                        <h3>Web Developing</h3>
+                        <p>eCommerce website.<br>
+                            Business website.<br>
+                            Blog website.<br>
+                            Portfolio website.<br>
+                            Event website.<br>
+                            Personal website.<br>
+                            Membership website.<br>
+                            Nonprofit website.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/work1-fotor-bg-remover-2023100715922.png" alt="Mobile App Development Project" class="img2">
+                    <div class="layer2">
+                        <h3>Mobile App Developing</h3>
+                        <p>Flutter<br>React Native<br>ionic<br> Xamarin<br> NativeScript</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------Contact------->
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact</h1> <!-- Changed to h1 for consistency -->
+            <div class="social-icon">
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100023353155361" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/amubashir65231" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/mubashir-ali-b71ab5288/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li><a href="https://github.com/MUBASHIR295" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+            </div>
+            <a href="/cv .pdf" download class="btn">Download Cv</a>
+            <div class="contactact-right">
+                <form id="contactForm"> <!-- Added ID for script.js -->
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn-btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontenes = document.getElementsByClassName("tab-contenes");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontene of tabcontenes) {
+                tabcontene.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
